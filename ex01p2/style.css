@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.navbar div {
+    display: flex;
+    gap: 20px;
+}
+
+.card-container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    position: relative;
+    flex: 1;
+    padding: 30px;
+    border: 1px solid black;
+    min-height: 150px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    z-index: 2;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    z-index: 10;
+}
+
